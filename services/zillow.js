@@ -1,16 +1,18 @@
 const fetch         = require('node-fetch');
 
-const zillow = {};
+const Zillow = {};
 const ZWSID = process.env.ZWSID;
 
-zillow.search = (zip, price, bed, bath) => {
-
-
-  return fetch(`http://www.zillow.com/webservice/GetSearchResults.htm?zws-id=${ZWSID}&address=${ADDRESS}&citystatezip=${CITYSTATEZIP}`);
+Zillow.search = (address)  => {
+  console.log("search term:", address)
+  return fetch(`http://www.zillow.com/webservice/GetSearchResults.htm?zws-id=${ZWSID}&address=${address}&citystatezip=NYC%2C+NY`);
 }
 
-module.exports = Zillow
 
+
+
+
+module.exports = Zillow
 
 
 

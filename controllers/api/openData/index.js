@@ -5,8 +5,7 @@ const controller    = require('./controller');
 
 //router.stuff to follow
 
-
-
+router.get('/', controller.getFelonies);
 
 
 

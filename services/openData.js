@@ -1,16 +1,17 @@
 const fetch = require('node-fetch');
 
-const openData = {};
-const apptoken = process.env.APP_TOKEN;
+const OpenData = {};
+// const apptoken = process.env.APP_TOKEN;  -->gonna risk putting a public access library on github
 
 
-openData.search = () => {
-  return fetch (`https://data.cityofnewyork.us/resource/7x9x-zpz6.json$$app_token=${APP_TOKEN}`
+OpenData.search = () => {
+   console.log("search term:", cmplnt_fr_dt)
+  return fetch (`https://data.cityofnewyork.us/resource/7x9x-zpz6.json?$$app_token=EAZicRXn062Gkx6mG9V41Kqs5&$limit=10000`
+
     );
 }
 
 module.exports = OpenData
-
 
 
 
@@ -23,3 +24,7 @@ module.exports = OpenData
 // ofns_desc    OFNS_DESC,Description of offense corresponding with key code
 // law_cat_cd   LAW_CAT_CD,"Level of offense: felony, misdemeanor, violation "
 // lat_lon
+
+
+
+

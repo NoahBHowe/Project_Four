@@ -16,20 +16,20 @@
     "url": "https://github.com/NoahBHowe/Project_Four/issues"
   },
   "homepage": "https://github.com/NoahBHowe/Project_Four#readme",
-
-"devDependencies": {
+  "devDependencies": {
     "bcrypt": "^1.0.2",
     "body-parser": "^1.17.1",
     "chai": "^3.5.0",
-    "cors": "^2.8.1",
+    "cors": "^2.8.3",
     "dotenv": "^4.0.0",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
+    "handlebars": "^4.0.6",
     "jsonwebtoken": "^7.3.0",
-    "method-override": "^2.3.7",
+    "method-override": "^2.3.8",
     "mocha": "^3.2.0",
     "node-fetch": "^1.6.3",
-    "supertest": "^3.0.0",
-    "pg-promise": "^5.6.4"
+    "pg-promise": "^5.6.4",
+    "supertest": "^3.0.0"
   }
 }

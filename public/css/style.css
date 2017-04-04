@@ -87,3 +87,5 @@ mapBox {
   border: 5px black dotted;
 
 }
+
+ #map { height: 480px; width: 640px }

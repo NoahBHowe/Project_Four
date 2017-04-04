@@ -1,6 +1,6 @@
 const fetch         = require('node-fetch');
 
-const googleMaps = {};
+const GoogleMaps = {};
 const apiKey = process.env.API_KEY;
 
 // googleMaps.search = () => {
