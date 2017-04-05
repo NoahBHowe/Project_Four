@@ -1,6 +1,7 @@
 const express           = require('express');
 const app               = express();
 
+
 const bodyParser        = require('body-parser');
 const bcrypt            = require('bcrypt');
 const methodOverride    = require('method-override');
@@ -10,6 +11,9 @@ app.use(logger('dev'));
 
 const resources              = require('./resources');
 app.use(resources);
+
+const path                   = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 require('dotenv').config();
@@ -27,8 +31,9 @@ app.use(methodOverride('_method'));
 
 app.use(require('./resources.js'));
 
-app.listen(process.env.PORT || 8000, () =>
-console.log('Your server is listening on Port', PORT));
-
+const PORT                   = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log('Today\'s PORT will be', PORT);
+});
 
 module.exports = app;

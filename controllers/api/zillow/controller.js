@@ -18,7 +18,7 @@ controller.getApartments = (req, res) => {
 };
 
 
-;
+
 
 
 
