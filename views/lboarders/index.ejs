@@ -20,7 +20,7 @@
 
 
 
-<link rel="css/style.css">
+<link href="/css/style.css" rel="stylesheet">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Law & Boarders</title>
 </head>
@@ -31,36 +31,36 @@
 
   <div id="container" class="flexChild columnParent"> <!-- start box for stuff  -->
 
-    <logoHead class="flexChild">             <!-- start logo-box and neoheader -->
+    <div id="logoHead" class="flexChild">             <!-- start logo-box and neoheader -->
+        <h1>Law & <br> Boarders</h1>
+    </div>                              <!-- end logo box and neoheader -->
 
-    </logoHead>                              <!-- end logo box and neoheader -->
+    <div id="bodyWrapper" class="flexChild rowParent"> <!-- start bodyWrapper -->
 
-    <bodyWrapper class="flexChild rowParent"> <!-- start bodyWrapper -->
-
-      <mapWrapper class="flexChild columnParent"> <!-- wrapping box for map-related things -->
+      <div id="mapWrapper" class="flexChild columnParent"> <!-- wrapping box for map-related things -->
 
 
-        <mapFilterTab class="flexChild">         <!-- start wrapper for filter buttons -->
-          <h1>hello</h1>
-        </mapFilterTab>                          <!-- end wrapper for filter buttons -->
+        <div id="mapFilterTab" class="flexChild">         <!-- start wrapper for filter buttons -->
 
-        <mapBox class="flexChild selected"> <!-- this is where the map goes -->
+        </div>                          <!-- end wrapper for filter buttons -->
+
+        <div id="mapBox" class="flexChild selected"> <!-- this is where the map goes -->
 
           <div id="map">
-
+          <div><iframe class="widget" width="500px" title="Crime Map!" height="425px" src="https://data.cityofnewyork.us/w/5jvd-shfj/25te-f2tw?cur=au98WQ1d_N2&from=root" frameborder="0"scrolling="no"><a href="https://data.cityofnewyork.us/Public-Safety/Crime-Map-/5jvd-shfj" title="Crime Map!" target="_blank">Crime Map!</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div>
 
         </div>
 
-      </mapBox>                           <!-- this is where the map went -->
+      </div>                           <!-- this is where the map went -->
 
 
-    </mapWrapper>                               <!-- end wrapping box for map-related things -->
+    </div>                               <!-- end wrapping box for map-related things -->
 
-    <savedStuffBox class="flexChild"> <!-- saved stuff popualates here -->
+    <div id="savedStuffBox" class="flexChild"> <!-- saved stuff popualates here -->
 
-    </savedStuffBox>                  <!-- saved stuff stops populating here -->
+    </div>                  <!-- saved stuff stops populating here -->
 
-  </bodyWrapper>                             <!-- end bodywrapper -->
+  </div>                             <!-- end bodywrapper -->
 
 
 </div>                                         <!--  end box for stuff -->

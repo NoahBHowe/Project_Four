@@ -1,3 +1,20 @@
+body {
+    text-align: center;
+  background: #dedede;
+  background: -moz-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(16%, #dedede), color-stop(23%, #dedede), color-stop(47%, #d6d6d6), color-stop(65%, #d4d4d4), color-stop(100%, #cfcfcf));
+  background: -webkit-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: -o-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: -ms-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: linear-gradient(135deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedede', endColorstr='#cfcfcf', GradientType=1);
+  opacity: .9;
+/*  border: 2px ridge #5E5B63;*/
+  border-radius: 14px 0px 0px 0px;
+  -moz-border-radius: 14px 0px 0px 0px;
+  -webkit-border-radius: 14px 0px 0px 0px;
+}
+
 #flexcanvas{
   width: 100%;
   min-height: 100vh;
@@ -47,46 +64,56 @@
 }
 
 
-mapFilterTab{
+#mapFilterTab{
  -webkit-box-flex: 0;
  -webkit-flex: 0 0 auto;
  -ms-flex: 0 0 auto;
  flex: 0 0 auto; height: 10vh;
- border: 5px black dotted;
+ border: 1px grey ridge;
 }
 
 
-savedStuffBox{
+#savedStuffBox{
  -webkit-box-flex: 0;
  -webkit-flex: 0 0 auto;
  -ms-flex: 0 0 auto;
  flex: 0 0 auto; width: 35vw;
- border: 5px black dotted;
+ border: 1px grey ridge;
 }
 
 
-logoHead{
+#logoHead{
  -webkit-box-flex: 0;
  -webkit-flex: 0 0 auto;
  -ms-flex: 0 0 auto;
  flex: 0 0 auto; height: 15vh;
- border: 5px black dotted;
+ border: 1px grey ridge;
+ justify-content: center;
+ align-content: center;
+ text-align: center;
 }
 
-bodyWrapper{
-  border: 5px black dotted;
-
-}
-
-mapWrapper{
-  border: 5px black dotted;
-
-}
-
-mapBox {
-  border: 5px black dotted;
+#bodyWrapper{
+  border: 1px grey ridge;
 
 }
 
- #map { height: 480px;
-  width: 640px }
+#mapWrapper{
+  border: 1px grey ridge;
+
+}
+
+#mapBox {
+  border: 1px grey ridge;
+
+}
+
+#map { height: 480px;
+  width: 640px
+}
+
+.widget {
+  size: contain;
+}
+
+

@@ -1,5 +1,5 @@
 $(document).ready(() => {
-
+console.log('hi! i am here!')
  function initMap() {
         var NYC = {lat: 40.7128, lng: -74.0059};
         var apartment = {lat: 40.757561, lng: -73.968552}
