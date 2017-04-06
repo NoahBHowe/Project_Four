@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+  background: #dedede;
+  background: -moz-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(16%, #dedede), color-stop(23%, #dedede), color-stop(47%, #d6d6d6), color-stop(65%, #d4d4d4), color-stop(100%, #cfcfcf));
+  background: -webkit-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: -o-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: -ms-linear-gradient(-45deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  background: linear-gradient(135deg, #dedede 16%, #dedede 23%, #d6d6d6 47%, #d4d4d4 65%, #cfcfcf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedede', endColorstr='#cfcfcf', GradientType=1);
+  opacity: .9;
+/*  border: 2px ridge #5E5B63;*/
+  border-radius: 14px 0px 0px 0px;
+  -moz-border-radius: 14px 0px 0px 0px;
+  -webkit-border-radius: 14px 0px 0px 0px;
+}
+
+#flexcanvas{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.rowParent, .columnParent{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.columnParent{
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flexChild{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+
+#mapFilterTab{
+ -webkit-box-flex: 0;
+ -webkit-flex: 0 0 auto;
+ -ms-flex: 0 0 auto;
+ flex: 0 0 auto; height: 10vh;
+ border: 1px grey ridge;
+}
+
+
+#savedStuffBox{
+ -webkit-box-flex: 0;
+ -webkit-flex: 0 0 auto;
+ -ms-flex: 0 0 auto;
+ flex: 0 0 auto; width: 35vw;
+ border: 1px grey ridge;
+}
+
+
+#logoHead{
+ -webkit-box-flex: 0;
+ -webkit-flex: 0 0 auto;
+ -ms-flex: 0 0 auto;
+ flex: 0 0 auto; height: 15vh;
+ border: 1px grey ridge;
+ justify-content: center;
+ align-content: center;
+ text-align: center;
+}
+
+#bodyWrapper{
+  border: 1px grey ridge;
+
+}
+
+#mapWrapper{
+  border: 1px grey ridge;
+
+}
+
+#mapBox {
+  border: 1px grey ridge;
+
+}
+
+#map { height: 480px;
+  width: 640px
+}
+
+.widget {
+  size: contain;
+}
+
+

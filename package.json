@@ -1,0 +1,40 @@
+{
+  "name": "project_four",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahBHowe/Project_Four.git"
+  },
+  "author": "Noah Burleigh Howe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoahBHowe/Project_Four/issues"
+  },
+  "homepage": "https://github.com/NoahBHowe/Project_Four#readme",
+  "devDependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "google-maps": "^3.2.1",
+    "handlebars": "^4.0.6",
+    "jsonwebtoken": "^7.3.0",
+    "method-override": "^2.3.8",
+    "mocha": "^3.2.0",
+    "node-fetch": "^1.6.3",
+    "path": "^0.12.7",
+    "pg-promise": "^5.6.4",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "@google/maps": "^0.3.1"
+  }
+}
